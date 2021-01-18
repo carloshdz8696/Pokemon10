@@ -34,7 +34,7 @@ public class PokemonService implements PokemoInterfaceService {
         if (optional.isPresent()) {
             pokemon = optional.get();
         } else {
-            throw new RuntimeException(" Employee not found for id :: " + id);
+            throw new RuntimeException(" Pokemon no encontrado por id :: " + id);
         }
         return pokemon;
     }

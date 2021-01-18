@@ -13,7 +13,7 @@ public class PokemonController {
     @Autowired
     private PokemonService pokemonService;
 
-    // display list of employees
+    // display list of pokemones
 
     @GetMapping("/")
     public String viewHomePage(Model model) {
